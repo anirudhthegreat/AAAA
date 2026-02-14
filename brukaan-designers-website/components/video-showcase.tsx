@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { Play } from "lucide-react"
+import { Play, X } from "lucide-react"
 
 const videos = [
   {
@@ -119,8 +119,9 @@ export function VideoShowcase() {
               <button
                 onClick={() => setSelectedVideo(null)}
                 className="absolute top-4 right-4 w-10 h-10 rounded-full bg-black/50 hover:bg-black/75 text-white flex items-center justify-center transition-colors z-10"
+                aria-label="Close video player"
               >
-                <span className="text-2xl leading-none">×</span>
+                <X className="w-5 h-5" />
               </button>
             </div>
           </div>
