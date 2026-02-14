@@ -3,6 +3,7 @@ import { Hero } from "@/components/hero"
 import { ProjectsMap } from "@/components/projects-map"
 import { Services } from "@/components/services"
 import { Portfolio } from "@/components/portfolio"
+import { VideoShowcase } from "@/components/video-showcase"
 import { About } from "@/components/about"
 import { Testimonials } from "@/components/testimonials"
 import { Careers } from "@/components/careers"
@@ -17,6 +18,7 @@ export default function Home() {
       <ProjectsMap />
       <Services />
       <Portfolio />
+      <VideoShowcase />
       <About />
       <Testimonials />
       <Contact />
