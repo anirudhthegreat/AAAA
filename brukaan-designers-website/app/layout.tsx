@@ -16,7 +16,23 @@ export const metadata: Metadata = {
     icon: '/logo.webp',
     apple: '/logo.webp',
   },
-    generator: 'v0.app'
+  metadataBase: new URL('https://brukaan-designers.com'),
+  alternates: {
+    canonical: 'https://brukaan-designers.com',
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'en_IN',
+    url: 'https://brukaan-designers.com',
+    title: 'Brukaan Designers & Associates | Interior Design Studio',
+    description: 'Transform your spaces with Brukaan Designers & Associates - Premier interior design firm in Bhubaneswar',
+    siteName: 'Brukaan Designers & Associates',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Brukaan Designers & Associates',
+    description: 'Premier interior design studio in Bhubaneswar',
+  },
 }
 
 export default function RootLayout({
